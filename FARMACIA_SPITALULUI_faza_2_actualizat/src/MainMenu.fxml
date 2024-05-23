@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="GUI.MainController">
+    <children>
+        <Button layoutX="14.0" layoutY="14.0" text="Add Command" onAction="#handleAddCommand"/>
+        <Button layoutX="14.0" layoutY="54.0" text="Update Command" onAction="#handleUpdateCommand"/>
+        <Button layoutX="14.0" layoutY="94.0" text="Show Commands" onAction="#handleShowCommands"/>
+        <Button layoutX="14.0" layoutY="134.0" text="Show Products" onAction="#handleShowProducts"/>
+        <Button layoutX="14.0" layoutY="174.0" text="Logout" onAction="#handleLogout"/>
+    </children>
+</AnchorPane>
+

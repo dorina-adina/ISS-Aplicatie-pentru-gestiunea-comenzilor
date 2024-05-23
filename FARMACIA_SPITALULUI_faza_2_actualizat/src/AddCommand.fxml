@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="GUI.AddCommandController">
+    <children>
+        <Label layoutX="14.0" layoutY="14.0" text="ID Comanda" />
+        <TextField fx:id="idComandaField" layoutX="120.0" layoutY="10.0" />
+
+        <Label layoutX="14.0" layoutY="54.0" text="Sectie" />
+        <TextField fx:id="sectieField" layoutX="120.0" layoutY="50.0" />
+
+        <Label layoutX="14.0" layoutY="94.0" text="Data Comanda" />
+        <TextField fx:id="dataComandaField" layoutX="120.0" layoutY="90.0" />
+
+        <Label layoutX="14.0" layoutY="134.0" text="Produse (separate prin virgulă)" />
+        <TextField fx:id="produseField" layoutX="220.0" layoutY="130.0" />
+
+        <Label layoutX="14.0" layoutY="174.0" text="Cantități (separate prin virgulă)" />
+        <TextField fx:id="cantitatiField" layoutX="220.0" layoutY="170.0" />
+
+        <Label layoutX="14.0" layoutY="214.0" text="Status" />
+        <TextField fx:id="statusField" layoutX="120.0" layoutY="210.0" />
+
+        <Button fx:id="addButton" layoutX="120.0" layoutY="250.0" mnemonicParsing="false" text="Adauga Comanda" onAction="#handleAddCommand" />
+    </children>
+</AnchorPane>
